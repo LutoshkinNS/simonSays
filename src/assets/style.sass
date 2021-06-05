@@ -1,0 +1,75 @@
+*,
+*:before,
+*:after
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+ul
+  list-style: none
+  margin: 0
+  padding: 0
+label
+  cursor: pointer
+
+body
+  font-family: Avenir, Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  text-align: left
+  color: #2c3e50
+  margin-top: 60px
+.container
+  max-width: 800px
+  margin: 0 auto
+.wrap
+  display: flex
+  justify-content: center
+.title
+  text-align: center
+.control
+  width: 260px
+.options
+  margin-bottom: 20px
+.btn
+  height: 40px
+  width: 100px
+  background-color: cornflowerblue
+  font-size: 16px
+  border-radius: 10px
+  border: none
+  &:hover
+    background-color: #82a5ea
+  &:active
+    background-color: #5084ea
+.game
+  width: 300px
+  height: 300px
+  margin-right: 40px
+.items-list
+  display: flex
+  flex-wrap: wrap
+  height: 100%
+.item
+  width: 50%
+  opacity: 0.6
+  transition: opacity 0.3s ease
+  &:hover
+    border: 1px solid black
+  &:active
+    opacity: 1
+.red
+  background-color: rgba(248, 84, 84)
+  border-radius: 0% 100% 0% 0%
+.green
+  background-color: rgba(38, 168, 38)
+  border-radius: 0% 0% 0% 100%
+.blue
+  background-color: rgba(69, 69, 255)
+  border-radius: 100% 0% 0% 0%
+.yellow
+  background-color: rgba(255, 255, 81)
+  border-radius: 0% 0% 100% 0%
+.active
+  opacity: 1
+
